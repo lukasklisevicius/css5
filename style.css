@@ -1,0 +1,238 @@
+/* ------Bendri-------*/
+
+body {
+  margin: 0;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+.apskritimas {
+  border-radius: 50%;
+}
+
+.fonas {
+  width: 100%;
+  height: 600px;
+}
+
+.laukas {
+  width: 150px;
+  height: 100px;
+  background: white;
+  border-radius: 5px;
+  position: relative;
+  top: calc(50% + 27px);
+  left: calc(50% - 75px);
+
+}
+
+.peciai {
+  width: 130px;
+  height: 30px;
+  border-radius: 30px 30px 0 0;
+  position: relative;
+  top: calc(50% - 100px);
+  left: calc(50% - 65px);
+}
+
+.kaklas {
+  background: #fcc78d;
+  width: 20px;
+  height: 40px;
+  border-radius: 0 0 40% 40%;
+  position: relative;
+  top: calc(50% - 150px);
+  left: calc(50% - 10px);
+}
+
+.galva {
+  background: #fcc78d;
+  width: 100px;
+  height: 100px;
+  border-radius: 0 0 45% 45%;
+  position: relative;
+  top: calc(50% - 270px);
+  left: calc(50% - 50px);
+  z-index: 3;
+}
+
+.ausis {
+  background: #fcc78d;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  z-index: 2;
+}
+
+.ausisL {
+  position: relative;
+  top: calc(50% - 345px);
+  left: calc(50% - 60px);
+}
+
+.ausisR {
+  position: relative;
+  top: calc(50% - 365px);
+  left: calc(50% + 40px);
+}
+
+.sypsena {
+width: 14px;
+height: 10px;
+border-bottom-left-radius: 110px;
+border-bottom-right-radius: 110px;
+position: relative;
+bottom: calc(50% - 100px);
+left: calc(50% - 7px);
+}
+
+
+
+/*---------------PINK----------------*/
+
+.fpink {
+  background: pink;
+}
+
+.peciaiRed{
+  background: Red;
+}
+
+.borderisR {
+  border: 3px solid brown;
+}
+
+.akis {
+  width: 5px;
+  height: 5px;
+  background: black;
+}
+
+.akisLeft {
+  position: absolute;
+  top: calc(40% - 2.5px);
+  left: 20%;
+}
+
+.akisRight {
+  position: absolute;
+    top: calc(40% - 2.5px);
+    right: 20%;
+}
+
+.sypsena {
+  border-top: 0;
+}
+
+.plaukaiB {
+  background: lightblue;
+}
+
+.plaukaiblueL {
+  width: 25px;
+  height: 60px;
+  border-radius: 20px;
+  position: relative;
+  top: calc(50% - 445px);
+  left: calc(50% - 55px);
+  z-index: 4;
+}
+
+.plaukaiblueR {
+  width: 110px;
+  height: 55px;
+  border-radius: 50% 0 50% 0;
+  position: relative;
+  top: calc(50% - 510px);
+  left: calc(50% - 35px);
+  z-index: 3;
+}
+
+
+
+/*------------BLUE--------------*/
+
+.fblue {
+  background: lightblue;
+}
+
+.borderisB {
+  border: 3px solid midnightblue;
+}
+
+.sypsena {
+  border-top: 0;
+}
+
+.peciaiBlue {
+  background: lightsteelblue;
+}
+
+.petnesa {
+  background: blue;
+  width: 20px;
+  height: 30px;
+}
+
+.petnesaL {
+  position: relative;
+  top: calc(50% - 15px);
+  left: calc(50% - 40px);
+}
+
+.petnesaR {
+  position: relative;
+  top: calc(50% - 45px);
+  left: calc(50% + 20px);
+}
+
+.akiniai {
+  width: 95px;
+  height: 1px;
+  position: relative;
+  top: calc(50% - 20px);
+}
+
+.stiklas {
+  width: 25px;
+  height: 25px;
+  background: lightsteelblue;
+}
+
+.stiklasL {
+  position: relative;
+  top: -10px;
+  left: calc(50% - 30px);
+}
+
+.stiklasR {
+  position: relative;
+  top: -35px;
+  left: calc(50% + 5px);
+}
+
+.plaukaiRudi {
+  background: brown;
+}
+
+.plaukaiRudiL {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  top: calc(50% - 460px);
+  left: calc(50% - 70px);
+  z-index: 1;
+}
+
+.plaukaiRudiR {
+  width: 125px;
+  height: 77px;
+  border-radius: 50% 50% 0 50%;
+  border-left: 0;
+  position: relative;
+  top: calc(50% - 566px);
+  left: calc(50% - 58px);
+  z-index: 5;
+}
